@@ -12,9 +12,6 @@
 
 ---
 
-### **README.md**
-
-```markdown
 # Problem 02 - Palindrome Number
 
 **Difficulty:** Easy  
