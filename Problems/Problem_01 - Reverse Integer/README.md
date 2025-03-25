@@ -1,5 +1,5 @@
 
-### 📌 **Problem Statement (problem.md)**  
+### 📌 **Problem Statement**  
 
 #### **Problem 1: Reverse Integer**  
 **Given an integer `x`, return `x` with its digits reversed.**  
