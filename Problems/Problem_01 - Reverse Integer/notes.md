@@ -1,5 +1,5 @@
 
-### 📌 **Notes & Insights (notes.md)**
+### 📌 **Notes & Insights**
 1. **Why Use `long`?**  
    - Since multiplying by `10` increases the number rapidly, using `long` helps detect overflow before returning.  
    
