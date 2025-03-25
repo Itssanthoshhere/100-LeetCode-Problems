@@ -1,0 +1,11 @@
+# Ignore compiled binary files
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+.vscode
