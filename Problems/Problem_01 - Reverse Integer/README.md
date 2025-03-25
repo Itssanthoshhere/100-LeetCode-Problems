@@ -1,3 +1,17 @@
+### **Directory Structure**
+
+```
+100-Days-of-Algorithms/  
+│── README.md  
+│  
+├── Problems/  
+│   ├── Problem_01/  
+│   │   ├── problem.md          # Problem statement & explanation  
+│   │   ├── solution.cpp        # C++ solution  
+│   │   ├── notes.md            # Additional insights (if any)  
+```
+
+---
 
 ### 📌 **Problem Statement**  
 
@@ -20,4 +34,3 @@ Output: -654
 Input: x = 1534236469  
 Output: 0  (overflow case)  
 ```
----
