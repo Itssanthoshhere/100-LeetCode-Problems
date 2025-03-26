@@ -42,5 +42,3 @@ Output: 1
 ```
 
 👉 **Check out the C++ solution in `solution.cpp`.**
-```
-
