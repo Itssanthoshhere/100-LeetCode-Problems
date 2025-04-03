@@ -3,13 +3,13 @@
 ```
 100-LeetCode-Problems/
 └── Problems/
-    └── Problem_31%20-%20Next%20Permutation/
+    └── Problem_19%20-%20Next%20Permutation/
         ├── README.md        # 📄 Problem statement, explanation, and examples
         ├── solution.cpp     # 💻 C++ solution code
         └── notes.md         # 📝 Additional insights and tips
 ```
 
-# Problem 31 - Next Permutation
+# Problem 19 - Next Permutation
 
 **Difficulty:** Medium  
 **Platform:** LeetCode

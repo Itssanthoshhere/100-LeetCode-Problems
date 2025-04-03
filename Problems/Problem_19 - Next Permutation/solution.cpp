@@ -9,7 +9,7 @@ public:
         int n = nums.size();
         int ind = -1;
         
-        // Step 1: Find the first index from the right that violates the descending order 🔍
+        // Step 1: Find the first element from the end that is smaller than its next element 🔍
         for (int i = n - 2; i >= 0; i--) {
             if (nums[i] < nums[i + 1]) {
                 ind = i;
@@ -17,13 +17,13 @@ public:
             }
         }
         
-        // If no such index is found, reverse the entire array to get the smallest permutation 🔄
+        // If no such element exists, reverse the array to get the lowest possible order 🔄
         if (ind == -1) {
             reverse(nums.begin(), nums.end());
             return;
         }
         
-        // Step 2: Find the smallest element greater than nums[ind] from the right side and swap them 🔄
+        // Step 2: Find the first element from the end that is greater than nums[ind] ➕
         for (int i = n - 1; i > ind; i--) {
             if (nums[i] > nums[ind]) {
                 swap(nums[i], nums[ind]);
@@ -31,14 +31,14 @@ public:
             }
         }
         
-        // Step 3: Reverse the subarray to the right of ind to get the next permutation 🎯
+        // Step 3: Reverse the subarray from ind+1 to the end to get the next permutation 📈
         reverse(nums.begin() + ind + 1, nums.end());
     }
 };
 
 int main() {
     Solution sol;
-    vector<int> nums = {1, 2, 3}; // Example input
+    vector<int> nums = {1,2,3};  // Example input
     sol.nextPermutation(nums);
     
     cout << "Next Permutation: ";
@@ -46,5 +46,6 @@ int main() {
         cout << num << " ";
     }
     cout << endl;
+    
     return 0;
 }
